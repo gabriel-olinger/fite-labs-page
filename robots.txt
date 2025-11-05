@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://gabriel-olinger.github.io/fite-labs-page/sitemap.xml
