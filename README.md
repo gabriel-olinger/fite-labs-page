@@ -1,6 +1,6 @@
 # Fite Labs
 
-Family Is The Engine. This site presents a small, fast, and accessible landing experience for local and hybrid AI services.
+This site presents a small, fast, and accessible landing experience for local and hybrid AI services.
 
 ## Pages
 - `index.html` - Hero, services overview, Cut the Cloud, Cloud Buster, and contact CTA
