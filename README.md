@@ -1,28 +1,78 @@
-# Fite Labs
+# FITE Labs website
 
-This site presents a small, fast, and accessible landing experience for local and hybrid AI services.
+A fast, accessible website for FITE Labs, a local and hybrid AI practice for
+small businesses. The site explains the value of owning more of your AI stack
+without hiding the message behind technical jargon.
+
+[View the live site](https://gabriel-olinger.github.io/fite-labs-page/) ·
+[View the services page](https://gabriel-olinger.github.io/fite-labs-page/services.html)
+
+![FITE Labs homepage](docs/fite-labs-home.png)
+
+## Project status
+
+**Live and deployed.** The current version is served through GitHub Pages and
+works without a build step or client-side framework.
+
+## What this project demonstrates
+
+- Translating an AI infrastructure concept into clear customer-facing language
+- Responsive design with plain HTML, CSS, and JavaScript
+- Semantic page structure and keyboard-friendly navigation
+- Progressive enhancement: core content remains usable without JavaScript
+- Reduced-motion support and visible focus states
+- Search and social metadata, canonical URLs, a sitemap, and robots directives
+- Lightweight deployment through GitHub Pages
 
 ## Pages
-- `index.html` - Hero, services overview, Cut the Cloud, Cloud Buster, and contact CTA
-- `about.html` - Origin story, practical wins, and ethics
-- `services.html` - Detailed offerings and starter tiers
-- `contact.html` - Mailto CTA and form stub
-- `404.html` - Friendly not found fallback
 
-## Local preview
-1. Serve the site from the repository root: `python3 -m http.server 8000`
-2. Visit `http://localhost:8000` in your browser
+| Page | Purpose |
+| --- | --- |
+| `index.html` | Value proposition, services overview, and primary calls to action |
+| `about.html` | Origin, operating principles, and responsible-AI perspective |
+| `services.html` | AI integration, training, and local/hybrid system offerings |
+| `contact.html` | Contact paths and inquiry guidance |
+| `404.html` | Branded fallback for missing pages |
 
-## Accessibility and performance
-- Mobile first, responsive layout
-- Skip link, keyboard friendly navigation, and high contrast focus states
-- Prefers reduced motion is respected across animations and smooth scrolling
+## Run locally
 
-## Deploying on GitHub Pages
-1. Push changes to the `main` branch of `gabriel-olinger/fite-labs-page`
-2. In the repository settings, enable GitHub Pages to serve from the `main` branch root
-3. After the first deployment, Pages will be available at `https://gabriel-olinger.github.io/fite-labs-page/`
+No package installation is required.
 
-## Assets
-- `assets/logo.svg`
-- `assets/hero-glow.png`
+```bash
+python3 -m http.server 8000
+```
+
+Then open [http://localhost:8000](http://localhost:8000).
+
+## Repository structure
+
+```text
+.
+├── assets/          # Logo and visual assets
+├── docs/            # Repository documentation images
+├── index.html       # Homepage
+├── about.html       # Company story and principles
+├── services.html    # Service descriptions
+├── contact.html     # Contact experience
+├── styles.css       # Responsive design system
+└── scripts.js       # Navigation and small interaction enhancements
+```
+
+## Design priorities
+
+1. **Clarity:** explain local-first AI in language a small-business owner can
+   act on.
+2. **Ownership:** emphasize control of data, costs, and infrastructure.
+3. **Accessibility:** support keyboard navigation, reduced motion, readable
+   contrast, and semantic landmarks.
+4. **Low overhead:** keep hosting and maintenance simple by avoiding an
+   unnecessary application framework.
+
+## Deployment
+
+GitHub Pages serves the root of the `main` branch at
+[gabriel-olinger.github.io/fite-labs-page](https://gabriel-olinger.github.io/fite-labs-page/).
+
+## License
+
+Released under the [MIT License](LICENSE).
